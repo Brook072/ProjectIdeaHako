@@ -1,0 +1,86 @@
+/** @type {import('tailwindcss').Config} */
+
+module.exports = {
+  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+  theme: {
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: "0.75rem",
+      },
+    },
+    extend: {
+      backgroundImage: {
+        "icon-line": "url('../icons/line.png')",
+        "icon-ig": "url('../icons/instagram.png')",
+        "icon-fb": "url('../icons/facebook.png')",
+        "icon-mail": "url('../icons/mail.png')",
+        "icon-menu": "url('../icons/menu.png')",
+        "icon-cancel": "url('../icons/cancel.png')",
+        logo: "url('../images/logo.png')",
+        "logo-footer": "url('../images/logo_footer.png')",
+        banner: "url('../images/banner.png')",
+        "banner-sm": "url('../images/banner_sm.png')",
+        feature: "url('../images/feature.png')",
+        "feature-sm": "url('../images/feature_sm.png')",
+        "feature-1": "url('../images/feature_1.png')",
+        "feature-2": "url('../images/feature_2.png')",
+        "feature-3": "url('../images/feature_3.png')",
+        "feature-4": "url('../images/feature_4.png')",
+        "share-1": "url('../images/share_1.png')",
+        "share-2": "url('../images/share_2.png')",
+        "share-3": "url('../images/share_3.png')",
+      },
+      borderWidth: {
+        pricing: "3px",
+      },
+      borderRadius: {
+        p625: "0.625rem",
+        "1p25": "1.25rem",
+      },
+      boxShadow: {
+        pricing: "0px 10px 40px rgba(0, 0, 0, 0.1)",
+        share: "0px 7px 61px rgba(0, 0, 0, 0.14)",
+      },
+      colors: {
+        primary: "#F06D24",
+        secondary: "#F4DDC9",
+        "light-grey": "#CCCCCC",
+        "mid-grey": "#666666",
+        "dark-grey": "#333333",
+      },
+      spacing: {
+        p1875: "0.1875rem",
+        "6p5": "1.625rem",
+        7: "1.75rem",
+        "7p5": "1.875rem",
+        13: "3.25rem",
+        15: "3.75rem",
+        "22p5": "5.625rem",
+        25: "6.25rem",
+        26: "6.5rem",
+        30: "7.5rem",
+        50: "12.5rem",
+        61: "15.25rem",
+        64: "16rem",
+        68: "17rem",
+        79: "19.75rem",
+        112: "28rem",
+        197: "49.25rem",
+      },
+    },
+    fontSize: {
+      base: ["16px", "19px"],
+      lg: ["20px", "24px"],
+      xl: ["24px", "36px"],
+      "2xl": ["32px", "38px"],
+      "3xl": ["48px", "48px"],
+      64: ["64px", "64px"],
+      90: ["90px", "90px"],
+    },
+    screens: {
+      xl: "1296px",
+    },
+  },
+  plugins: [],
+};
